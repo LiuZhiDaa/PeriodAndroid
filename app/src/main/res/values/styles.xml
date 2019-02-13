@@ -1,0 +1,162 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/colorWindowBg</item>
+    </style>
+
+    <style name="SplashTheme" parent="AppTheme">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowBackground">@drawable/welcom_gradient_bg</item>
+    </style>
+    <style name="LaunchTheme" parent="AppTheme">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowBackground">@drawable/bg_launch</item>
+    </style>
+
+    <style name="settingItemTitleBarTextStyle">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:textSize">@dimen/splash_text_size</item>
+        <item name="android:textColor">@color/splashActivityTextColor</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="settingItemTitleTextStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/settingItemTitleTextColor</item>
+        <item name="android:textSize">@dimen/setting_fragment_item_title_text_size</item>
+        <item name="android:paddingStart">@dimen/setting_fragment_item_margin_left</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:background">@color/settingItemBgColor</item>
+    </style>
+
+    <style name="settingItemTextStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">left</item>
+        <item name="android:textColor">@color/settingItemTextColor</item>
+        <item name="android:layout_marginLeft">@dimen/setting_fragment_item_margin_left</item>
+    </style>
+
+    <style name="settingItemArrowStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginRight">@dimen/setting_fragment_item_margin_left</item>
+    </style>
+
+    <style name="settingItemdaysStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">@color/settingItemTitleDaysTextColor</item>
+        <item name="android:textSize">@dimen/setting_fragment_item_text_size</item>
+        <item name="android:layout_marginStart">10dp</item>
+        <item name="android:layout_marginEnd">10dp</item>
+    </style>
+
+    <style name="settingItemStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@drawable/bg_item</item>
+        <item name="android:clickable">true</item>
+        <item name="android:paddingTop">18dp</item>
+        <item name="android:paddingBottom">18dp</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="dialogButtonStyle">
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">4</item>
+        <item name="android:minHeight">0dp</item>
+        <item name="android:paddingTop">6dp</item>
+        <item name="android:paddingBottom">6dp</item>
+        <item name="android:textSize">@dimen/dialog_bt_text_size</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="reminder_item_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingStart">17dp</item>
+        <item name="android:paddingEnd">17dp</item>
+        <item name="android:background">@color/colorWhite</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="reminder_item_main_text_style">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#333333</item>
+        <item name="android:textSize">13dp</item>
+    </style>
+
+    <style name="reminder_item_sub_text_style" >
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#999999</item>
+        <item name="android:textSize">13dp</item>
+        <item name="android:maxWidth">200dp</item>
+        <item name="android:minWidth">200dp</item>
+        <item name="android:gravity">right</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="toolBarStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:layout_height">@dimen/toolbar_height</item>
+    </style>
+    <style name="SCBSwitch" parent="Theme.AppCompat.Light">
+        <!-- active thumb & track color (30% transparency)滑块儿打开的色值 -->
+        <item name="colorControlActivated">#FF7DAB</item>
+
+        <!-- inactive thumb color滑块儿的色值 未选中时的背景色值-->
+        <item name="colorSwitchThumbNormal">#0fff00</item>
+
+        <!-- inactive track color (30% transparency)选中时的背景色 -->
+        <item name="android:colorForeground">#333333</item>
+
+        <!--<item name="android:colorBackground">#ffb0d7</item>-->
+        <item name="android:colorBackground">#FF7DAB</item>
+    </style>
+
+    <style name="CustomCheckBoxTheme" parent="@android:style/Widget.CompoundButton.CheckBox">
+                 <item name="android:button">@drawable/checkbox_style</item>
+    </style>
+    <style name="CustomCheckBoxSwichTheme"  parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:selectableItemBackground">@null</item>
+        <item name="android:selectableItemBackgroundBorderless">@null</item>
+        <item name="android:button">@drawable/checkbox_swich_style</item>
+    </style>
+
+    <!--parent="Theme.AppCompat.Light"-->
+
+    <!-- Base application theme. -->
+    <style name="Out_Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!--Customize your theme here. -->
+        <!--<item name="colorPrimary">@color/colorPrimary</item>-->
+        <!--<item name="colorPrimaryDark">@color/black3</item>-->
+        <!--<item name="colorAccent">@color/green1</item>-->
+    </style>
+    <style name="AppTheme.NoActionBar">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+</resources>

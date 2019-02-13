@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <com.period.app.widget.wheelview.WheelView
+        android:id="@+id/wheel_view_day"
+        android:layout_width="0dp"
+        android:layout_weight="4"
+        android:layout_height="wrap_content"
+        app:isLoop="false"
+        app:itemVisibleNum="3"
+        app:lineColor="@color/menstrualLengthDividerColor"
+        app:lineSpaceingDimens="10dp"
+        app:textColorCenter="@color/reminderTimeWheelCenterColor"
+        app:textColorOuter="@color/reminderTimeWheelOuterColor"
+        app:textSizeCenter="@dimen/reminder_time_center_text_size"
+        app:textSizeOuter="@dimen/reminder_time_outer_text_size"   />
+
+    <TextView
+        android:id="@+id/tv_unit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/reminderTimeWheelCenterColor" />
+
+    <com.period.app.widget.wheelview.WheelView
+        android:id="@+id/wheel_view_hour"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        app:isLoop="false"
+        app:itemVisibleNum="3"
+        app:lineColor="@color/menstrualLengthDividerColor"
+        app:lineSpaceingDimens="10dp"
+        app:textColorCenter="@color/reminderTimeWheelCenterColor"
+        app:textColorOuter="@color/reminderTimeWheelOuterColor"
+        app:textSizeCenter="@dimen/reminder_time_center_text_size"
+        app:textSizeOuter="@dimen/reminder_time_outer_text_size"/>
+
+    <TextView
+        android:id="@+id/tv_split"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/reminderTimeWheelCenterColor" />
+
+    <com.period.app.widget.wheelview.WheelView
+        android:id="@+id/wheel_view_minute"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        app:isLoop="false"
+        app:itemVisibleNum="3"
+        app:lineColor="@color/menstrualLengthDividerColor"
+        app:lineSpaceingDimens="10dp"
+        app:textColorCenter="@color/reminderTimeWheelCenterColor"
+        app:textColorOuter="@color/reminderTimeWheelOuterColor"
+        app:textSizeCenter="@dimen/reminder_time_center_text_size"
+        app:textSizeOuter="@dimen/reminder_time_outer_text_size" />
+
+</LinearLayout>

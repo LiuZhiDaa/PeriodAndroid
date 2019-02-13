@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white1"
+    android:orientation="vertical">
+
+    <com.period.app.widget.MyToolbar
+        style="@style/toolBarStyle"
+        app:mytoolbar_title="@string/setting_about"
+        app:mytoolbar_left_icon="@drawable/icon_tool_bar_left"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.7" />
+
+    <ImageView
+        android:layout_width="@dimen/about_img"
+        android:layout_height="@dimen/about_img"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/icon_launch" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/common_10dp"
+        android:text="@string/app_name"
+        android:textColor="#000000"
+        android:textSize="@dimen/common_16dp"
+         />
+
+    <TextView
+        android:id="@+id/tv_app_version"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/common_10dp"
+        android:layout_marginTop="@dimen/common_8dp"
+        android:text="v1.0"
+        android:textColor="#000000"
+        android:textSize="@dimen/common_16dp"
+         />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.8" />
+
+
+</LinearLayout>

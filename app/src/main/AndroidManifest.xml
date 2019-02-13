@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.period.app">
+
+    <application
+        android:name=".XApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="AllowBackup,GoogleAppIndexingWarning">
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity android:name=".main.LaunchActivity"
+            android:excludeFromRecents="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/LaunchTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".main.SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashTheme">
+        </activity>
+        <activity
+            android:name=".main.MainActivity"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTask"/>
+        <activity
+            android:name=".main.WelcomActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".main.WheelDateActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".main.ReminderActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".main.AboutActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".main.out.page.OutNotifyActivity"
+            android:excludeFromRecents="true"
+            android:icon="@drawable/icon_launcher_notify"
+            android:label="@string/battery"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.ulric.li.xout.flashlight"
+            android:theme="@style/Out_Theme" />
+        <activity
+            android:name=".main.out.page.CleanerActivity"
+            android:excludeFromRecents="true"
+            android:icon="@drawable/icon_launcher_clean"
+            android:label="@string/clean"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.ulric.li.xout.flashlight"
+            android:theme="@style/Out_Theme" />
+        <activity
+            android:name=".main.out.page.CoolActivity"
+            android:excludeFromRecents="true"
+            android:icon="@drawable/icon_launcher_cool"
+            android:label="@string/cool"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.ulric.li.xout.flashlight"
+            android:theme="@style/Out_Theme" />
+        <activity
+            android:name=".main.out.page.BoosterActivity"
+            android:excludeFromRecents="true"
+            android:icon="@drawable/icon_launcher_booster"
+            android:label="@string/booster"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.ulric.li.xout.flashlight"
+            android:theme="@style/Out_Theme" />
+        <activity
+            android:name=".main.out.page.NetworkActivity"
+            android:excludeFromRecents="true"
+            android:icon="@drawable/icon_launcher_network"
+            android:label="@string/wifi"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.ulric.li.xout.flashlight"
+            android:theme="@style/Out_Theme" />
+        <activity
+            android:name=".main.out.page.TestActivity"
+            android:excludeFromRecents="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.ulric.li.xout.flashlight"
+            android:theme="@style/Out_Theme" >
+
+        </activity>
+        <activity
+            android:name=".main.out.page.MissCallActivity"
+            android:excludeFromRecents="true"
+            android:icon="@drawable/icon_launcher_call"
+            android:label="@string/call"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.ulric.li.xout.flashlight"
+            android:theme="@style/Out_Theme" />
+        <activity
+            android:name=".main.out.page.BatteryActivity"
+            android:excludeFromRecents="true"
+            android:icon="@drawable/icon_launcher_charge"
+            android:label="@string/battery"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.ulric.li.xout.flashlight"
+            android:theme="@style/Out_Theme" />
+        <activity
+            android:name=".main.out.page.BatteryEndActivity"
+            android:excludeFromRecents="true"
+            android:icon="@drawable/icon_launcher_charge"
+            android:label="@string/battery"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.ulric.li.xout.flashlight"
+            android:theme="@style/Out_Theme" />
+        <activity
+            android:name=".main.out.page.AntivirusActivity"
+            android:excludeFromRecents="true"
+            android:icon="@drawable/icon_antivirus"
+            android:label="@string/antivirus"
+            android:launchMode="singleTask"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.ulric.li.ad.flashlight" />
+        <activity
+            android:name=".main.out.page.BatteryOptimizeActivity"
+            android:excludeFromRecents="true"
+            android:icon="@drawable/battery_optimize_icon"
+            android:label="@string/battery_optimize"
+            android:launchMode="singleTask"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:taskAffinity="com.ulric.li.ad" />
+
+
+    </application>
+
+</manifest>

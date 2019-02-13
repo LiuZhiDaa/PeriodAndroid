@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.period.app.widget.wheelview.WheelView
+        android:id="@+id/wheel_view_year"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        app:isLoop="false"
+        app:itemVisibleNum="3"
+        app:lineColor="@color/dividerColor"
+        app:lineSpaceingDimens="10dp"
+        app:textColorCenter="@color/welcomWheelCenterColor"
+        app:textColorOuter="@color/welcomWheelOuterColor"
+        app:textSizeCenter="@dimen/welcom_text_size"
+        app:textSizeOuter="16dp" />
+    <com.period.app.widget.wheelview.WheelView
+        android:id="@+id/wheel_view_month"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        app:isLoop="false"
+        app:itemVisibleNum="3"
+        app:lineColor="@color/dividerColor"
+        app:lineSpaceingDimens="10dp"
+        app:textColorCenter="@color/welcomWheelCenterColor"
+        app:textColorOuter="@color/welcomWheelOuterColor"
+        app:textSizeCenter="@dimen/welcom_text_size"
+        app:textSizeOuter="16dp" />
+    <com.period.app.widget.wheelview.WheelView
+        android:id="@+id/wheel_view_day"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        app:isLoop="false"
+        app:itemVisibleNum="3"
+        app:lineColor="@color/dividerColor"
+        app:lineSpaceingDimens="10dp"
+        app:textColorCenter="@color/welcomWheelCenterColor"
+        app:textColorOuter="@color/welcomWheelOuterColor"
+        app:textSizeCenter="@dimen/welcom_text_size"
+        app:textSizeOuter="16dp" />
+</LinearLayout>

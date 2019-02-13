@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+
+    <!--月经期的长度-->
+    <com.period.app.widget.wheelview.WheelDateView
+        android:id="@+id/wheel_period_operation"
+        android:layout_marginEnd="@dimen/welcom_wheel_view_margin_right"
+        android:layout_marginStart="@dimen/welcom_wheel_view_margin_left"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:textColorCenter="@color/mainWheelCenterColor"
+        app:textColorOuter="@color/mainWheelOuterColor"
+        app:lineColor="@color/mainWheelDividerColor"/>
+
+</LinearLayout>

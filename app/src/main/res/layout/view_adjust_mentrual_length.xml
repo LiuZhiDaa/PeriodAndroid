@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <com.period.app.widget.wheelview.WheelView
+        android:id="@+id/wheel_view_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:isLoop="false"
+        app:itemVisibleNum="3"
+        app:lineColor="@color/menstrualLengthDividerColor"
+        app:lineSpaceingDimens="10dp"
+        app:textColorCenter="@color/menstrualLengthWheelCenterColor"
+        app:textColorOuter="@color/menstrualLengthWheelOuterColor"
+        app:textSizeCenter="@dimen/menstrual_length_center_text_size"
+        app:textSizeOuter="@dimen/menstrual_length_outer_text_size" />
+
+
+
+    <TextView
+        android:id="@+id/tv_unit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary" />
+</LinearLayout>

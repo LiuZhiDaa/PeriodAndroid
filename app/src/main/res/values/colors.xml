@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF7DAB</color>
+    <color name="colorPrimaryDark">#FF7DAB</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorWindowBg">#F1F1F1</color>
+
+    <color name="yuceJq">#FDF3F8</color>
+    <color name="shijiJq">#FE60A3</color>
+    <color name="safeColor">#ABDF94</color>
+    <color name="pailuanRq">#FFFFFF</color>
+    <color name="pailuanR">#C289dc</color>
+    <color name="pailuanRs">#c8b3fe</color>
+    <color name="seletedColors">#70FFC8DB</color>
+    <color name="otherDay">#DBDBDB</color>
+
+
+    <!--splash-->
+    <color name="splashActivityStartBgColor">#FE79A8</color>
+    <color name="splashActivityEndBgColor">#FA578B</color>
+    <color name="splashActivityBtColor">#FF7DAB </color>
+    <color name="splashActivityTextColor">#FEFEFE</color>
+
+
+    <!--mainActivity -->
+    <color name="main_tab_unselect_color">#878787</color>
+    <color name="main_tab_select_color">#F99A5A</color>
+
+    <color name="colorWhite">#ffffff</color>
+
+    <!--mainfragment wheelView-->
+    <color name="mainWheelCenterColor">#FF7DAB</color>
+    <color name="mainWheelOuterColor">#999999</color>
+    <color name="mainWheelDividerColor">#DCDCDC</color>
+
+
+    <!--welcom wheelView-->
+    <color name="welcomWheelCenterColor">#FF7DAB</color>
+    <color name="welcomWheelOuterColor">#80FF6AB3</color>
+    <color name="welcomWheelTitleColor">#FF7DAB </color>
+    <color name="welcomDividerColor">#FF7DAB</color>
+
+    <!--menstrual length wheelView-->
+    <color name="menstrualLengthWheelCenterColor">#FF7DAB</color>
+    <color name="menstrualLengthWheelOuterColor">#999999  </color>
+    <color name="menstrualLengthDividerColor">#DCDCDC</color>
+
+    <!--wheelView-->
+    <color name="wheelCenterColor">#FF7DAB</color>
+    <color name="wheelOuterColor">#FF6AB3 </color>
+    <color name="dividerColor">#F95789</color>
+    <color name="colorRipple">#cccccc</color>
+    
+    <color name="ovulation">#9C68FB</color>
+    <color name="seletedColor">#FF9DC0</color>
+    <color name="circleRed">#FF6AB3</color>
+    <color name="heartColor">#A16FFB</color>
+
+    <color name="circleGreenColor">#7EDD9B</color>
+    <color name="circleBlueColor">#F95789</color>
+
+    <!--reminder time length wheelView-->
+    <color name="reminderTimeWheelCenterColor">#FF7DAB</color>
+    <color name="reminderTimeWheelOuterColor">#999999  </color>
+    <color name="reminderTimeDividerColor">#DCDCDC</color>
+
+    <!--cycle length wheelView-->
+    <color name="cycleLengthWheelCenterColor">#FF7DAB</color>
+    <color name="cycleLengthWheelOuterColor">#999999  </color>
+    <color name="cycleLengthDividerColor">#DCDCDC</color>
+
+    <!--setting界面-->
+    <color name="titleBgColor">#F1F1F1</color>
+    <color name="settingItemTextColor">#333333 </color>
+    <color name="settingItemTitleTextColor">#999999</color>
+    <color name="settingItemBgColor">#f1f1f1</color>
+    <color name="settingItemTitleDaysTextColor">#CCCCCC</color>
+    <color name="settingItemdividerColor">#DEDEDE</color>
+
+
+
+
+    <!--dialog-->
+    <color name="dialogTitleTextColor">#333333</color>
+    <color name="dialogDividerColor">#CCCCCC</color>
+    <color name="dialogTextColor">#666666</color>
+    <color name="dialogHorizontalDividerColor">#137FEB</color>
+    <color name="dialogNegativeColor">#999999</color>
+    <color name="dialogPositiveColor">#FF7DAB</color>
+
+    <!--reminder text dialog-->
+    <color name="reminderDialogEditTextBgColor">#fff1f1f1</color>
+    <color name="reminderDialogEditTextColor">#333333</color>
+
+    <!--main fragment-->
+    <color name="mainFragmentSubTextColor">#FFFFFF</color>
+    <color name="mainFragmentDateTextColor">#555555</color>
+    <color name="mainFragmentCircleForecastTextColor">#999999</color>
+    <color name="mainFragmentCircleTitleTextColor">#333333</color>
+    <color name="mainFragmentCircleDateTextColor">#333333</color>
+    <color name="mainFragmentBtTextGreenColor">#44C479</color>
+    <color name="mainFragmentBtTextPinkColor">#F3679E</color>
+    <color name="mainFragmentBtTextPurpleColor">#8D6BE8</color>
+    <color name="mainFragmentTvColor">#777777</color>
+
+
+    <color name="toolBarBgColor">#FF7DAB</color>
+
+    <!--common-->
+    <color name="toolbar_background">#dfdfdf</color>
+    <color name="divider">#dfdfdf</color>
+    <color name="blue5">#4162ff</color>
+
+    <!--network page-->
+    <color name="network_change_round_bg_color">#30000000</color>
+
+
+    <!--main ad dialog -->
+    <color name="main_ad_dialog_divider_color">@color/gray1</color>
+
+    <!--battery charging-->
+    <color name="battery_charging">#37CEF9</color>
+    <color name="white21">#20FFFFFF</color>
+    <color name="white40">#40FFFFFF</color>
+
+    <!--miss call cativity-->
+    <color name="miss_call_activity_bg">#5677FC</color>
+
+    <!--背景色-->
+    <!--杀毒-->
+    <color name="anivirus_page_bg_color">#2ba244</color>
+    <!--充电-->
+    <color name="battery_charging_bg">#116CF0</color>
+    <!--充电完成-->
+    <color name="battery_end_bg">#116CF0</color>
+    <!--电池优化-->
+    <color name="battery_optimize_bg">#4162FF</color>
+    <!--加速-->
+    <color name="booster_page_bg_color">#3EBB2D</color>
+    <!--清理-->
+    <color name="clean_page_bg_color">#4162FF</color>
+    <!--降温-->
+    <color name="cool_page_bg_color">#EB3E3E</color>
+    <!--网络优化-->
+    <color name="network_change_page_bg">#E55353</color>
+
+    <color name="gray1">#939399</color>
+    <color name="white">#ffffff</color>
+    <color name="white1">#ffffff</color>
+    <color name="white2">#eeeeee</color>
+    <color name="calendar_title_text">#333333</color>
+    <color name="current_day_lunar_text_color">#333333</color>
+    <color name="current_month_text_color">#333333</color>
+    <color name="current_day_text_color">#777777</color>
+    <color name="other_month_text_color">#DBDBDB</color>
+    <color name="scheme_lunar_text_color">#CFCFCF</color>
+    <color name="scheme_text_color">#333333</color>
+    <color name="scheme_theme_color">#128c4b</color>
+    <color name="selected_lunar_text_color">#128c4b</color>
+    <color name="selected_theme_color">#ededed</color>
+    <color name="week_text_color">#BEC7CF</color>
+    <color name="year_view_background">#f6f6f6</color>
+    <color name="year_view_day_text_color">#333333</color>
+    <color name="year_view_month_text_color">#333333</color>
+    <color name="year_view_scheme_color">#333333</color>
+    <color name="year_view_week_text_color">#666666</color>
+</resources>

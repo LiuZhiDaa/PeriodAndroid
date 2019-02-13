@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F1F1F1">
+
+    <com.period.app.widget.MyToolbar
+        android:id="@+id/tool_bar"
+        app:mytoolbar_left_icon="@drawable/icon_tool_bar_left"
+        android:layout_height="@dimen/toolbar_height"
+        android:layout_width="match_parent"
+        android:background="@color/toolBarBgColor"/>
+
+    <LinearLayout
+        android:id="@+id/lv_reminder_switch"
+        style="@style/reminder_item_style">
+
+        <TextView
+            android:id="@+id/tv_reminder_length"
+            android:text="@string/reminder_time"
+            style="@style/reminder_item_main_text_style" />
+
+        <Switch
+            android:id="@+id/sw_reminder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:theme="@style/SCBSwitch"/>
+
+    </LinearLayout>
+    <include layout="@layout/divider_match_parent" />
+    <LinearLayout
+        android:id="@+id/lv_reminder_custom_text"
+        style="@style/reminder_item_style">
+        <TextView
+            android:id="@+id/tv_reminder_text"
+            android:text="@string/dialog_reminder_text_title"
+            style="@style/reminder_item_main_text_style" />
+
+        <TextView
+            android:id="@+id/tv_reminder_custom_text"
+            android:text="@string/reminder_time"
+            style="@style/reminder_item_sub_text_style"/>
+    </LinearLayout>
+    <include layout="@layout/divider_match_parent" />
+    <LinearLayout
+        android:id="@+id/lv_reminder_time"
+        style="@style/reminder_item_style">
+        <TextView
+            android:id="@+id/tv_reminder_time"
+            android:text="@string/reminder_time"
+            style="@style/reminder_item_main_text_style" />
+        <TextView
+            android:id="@+id/tv_time_text"
+            android:text="@string/reminder_time"
+            style="@style/reminder_item_sub_text_style"/>
+    </LinearLayout>
+
+</LinearLayout>

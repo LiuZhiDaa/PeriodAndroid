@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ripple_white">#20ffffff</color>
+    <color name="ripple_black">#20000000</color>
+
+    <color name="white1">#ffffff</color>
+    <color name="white2">#5fffffff</color>
+    <color name="white3">#666666</color>
+    <color name="white4">#333333</color>
+
+    <color name="black1">#000000</color>
+    <color name="black2">#7f000000</color>
+    <color name="black3">#222222</color>
+
+    <color name="gray1">#939399</color>
+    <color name="gray2">#575d66</color>
+    <color name="gray3">#3f424d</color>
+
+    <color name="blue1">#039be5</color>
+</resources>

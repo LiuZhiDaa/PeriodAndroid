@@ -1,0 +1,227 @@
+<resources>
+
+
+    <!--splash page-->
+    <string name="splash_title">Welcom to the period calendar!</string>
+    <string name="splash_content">In order to accurately predict your physiological\ncycle,you need to answer the following 3 questions.</string>
+    <string name="start">Start</string>
+
+
+    <!--欢迎界面-->
+    <string name="skip">Skip</string>
+    <string name="welcom_title">Welcom to the period calendar!</string>
+    <string name="welcom_phy_cycle_title">How long is your physiological cycle?</string>
+    <string name="welcom_menstrual_period_title">How long is your menstrual period?</string>
+    <string name="welcom_recent_menstrual_period_title">The day of your latest menstrual start is…</string>
+    <string name="days">days</string>
+
+
+    <!--首界面-->
+    <string name="period_in">Period in</string>
+    <string name="ovulation_in">Ovulation in</string>
+    <string name="format_days">%d days</string>
+    <string name="menstruation">Menstruation</string>
+    <string name="safety_in">Safety in</string>
+    <string name="after_ovu">%d days before next Menstruation </string>
+    <string name="welcom_to">Welcome to</string>
+    <string name="select_start_period">Select the start of menstrual period</string>
+    <string name="select_end_period">Select the end of menstrual period</string>
+    <!--<string name="welcom">Welcome to Period Calendar!</string>-->
+    <string name="high_probability">High probability of pregnancy</string>
+    <string name="ovulation_period">Ovulation Period</string>
+    <string name="ovulation_day">Ovulation Day</string>
+    <string name="medium_probability">Medium probability of pregnancy</string>
+    <string name="low_probability">Low probability of pregnancy</string>
+    <string name="men_period">Menstrual period</string>
+    <string name="forecast">Forecast</string>
+    <string name="operation_tips">View menstruation in calendar</string>
+    <string name="menstruation_start">Menstruation Start</string>
+    <string name="menstruation_end">Menstruation End</string>
+
+
+    <string name="days_before_ovulation">d% days before ovulation</string>
+    <string name="days_before_next_men">d% days before next Menstruation </string>
+    <string name="no_data">No Data</string>
+    <string name="please_set">Please go to set </string>
+    <string name="the_latest_men_day">the latest menstrual start day!</string>
+    <string name="pregnancy_probability">Pregnancy probability 10%\nMenstrual period</string>
+
+    <string name="friday_october">Friday,October 2</string>
+    <string name="period_start">Period Start</string>
+
+    <!--设置界面-->
+    <string name="more">More</string>
+    <string name="phy_cycle_setting">Physiological Cycle Settings</string>
+    <string name="phy_cycle_length">Physiological cycle length </string>
+    <string name="menstrual_length">Menstrual length</string>
+    <string name="reminder_settings">Reminder Settings</string>
+    <string name="menstrua_start_reminder">Menstruation start</string>
+    <string name="end_of_menstrua">Menstruation end</string>
+    <string name="ovulation_start_reminder">Ovulation start</string>
+    <string name="ovulation_day_reminder">Ovulation day</string>
+    <string name="ovulation_end_reminder">Ovulation end</string>
+    <string name="others">Others</string>
+    <string name="privacy">Privacy</string>
+    <string name="setting_about">About</string>
+    <!--日历界面-->
+    <string name="calendar_fragment_title">Calendar</string>
+
+    <!--dialog弹窗-->
+    <string name="dialog_cancel_upper_case">Cancel</string>
+    <string name="dialog_confirm">Confirm</string>
+    <string name="cancel_start_text">Whether to cancel the setting of menstrual start?</string>
+    <string name="cancel_end_text">Whether to cancel the setting of menstrual end?</string>
+
+
+    <string name="dialog_menstrual_length_title">Menstrual length adjustment</string>
+    <string name="dialog_cycle_length_title">Cycle length adjustment</string>
+    <string name="dialog_reminder_text_title">Reminder text</string>
+    <string name="dialog_reminder_time_title">Reminder time</string>
+    <string name="dialog_calendar_title">Edit</string>
+
+    <string-array name="advance_days">
+        <item>The same day</item>
+        <item>1day in advance</item>
+        <item>2days in advance </item>
+    </string-array>
+
+    <string-array name="months">
+        <item>Jan</item>
+        <item>Feb</item>
+        <item>Mar</item>
+        <item>Apr</item>
+        <item>May</item>
+        <item>Jun</item>
+        <item>Jul</item>
+        <item>Aug</item>
+        <item>Sep</item>
+        <item>Oct</item>
+        <item>Nov</item>
+        <item>Dec</item>
+    </string-array>
+
+    <string-array name="weeks">
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+    </string-array>
+
+    <string-array name="reminder_titles">
+        <item>Menstruation start</item>
+        <item>Menstruation end</item>
+        <item>Ovulation start</item>
+        <item>Ovulation day</item>
+        <item>Ovulation end</item>
+    </string-array>
+
+
+    <string-array name="reminder_switch_texts">
+        <item>Menstruation start reminder</item>
+        <item>Menstruation end reminder</item>
+        <item>Ovulation start reminder</item>
+        <item>Ovulation day reminder</item>
+        <item>Ovulation end reminder</item>
+    </string-array>
+
+    <string-array name="reminder_custom_texts">
+        <item>The menstrual period is coming soon!</item>
+        <item>The menstrual period is over soon!</item>
+        <item>The ovulation is coming soon!</item>
+        <item>The ovulation day is today!</item>
+        <item>The ovulation period is over soon!</item>
+    </string-array>
+    <string name="reminder_time">Reminder time</string>
+    <string name="str_reminder_time">%s  - %s</string>
+
+    <!--提醒的提示文本-->
+    <!--<string name="str_reminder_time">The menstrual period is coming soon!</string>-->
+    <!--<string name="str_reminder_time">%d day - %s in advance</string>-->
+    <string name="main_exit">Click back again, and you will exit app</string>
+    <string name="menstrualend">Menstrual End</string>
+    <string name="menstrualstart">Menstrual Start</string>
+    <string name="str_format_main_date">%1$s, %2$s %3$d</string>
+    <string name="string_dialog_period_start">Whether to set the selected day as the menstruation start?</string>
+    <string name="adjust_the_start_of_menstrual_period">Adjust menstruation start</string>
+    <string name="adjust_the_end_of_menstrual_period">Adjust menstruation end</string>
+    <string name="menstrual_period">Delete selected menstruation</string>
+    <string name="end_of_men_period">Cancellation of menstruation</string>
+    <string name="is_the_selected_date_set_to_the_end_of_the_period">Whether to set the selected day as the menstruation end?</string>
+    <string name="future_data_is_not_editable">Future cannot be edited</string>
+    <string name="no_modification_during_menstruation">No modification during menstruation</string>
+    <string name="reselect_the_time">Menstruation must be longer than 1 day!</string>
+    <string name="edit">Edit</string>
+    <string name="feedback">Feedback</string>
+    <string name="about">About</string>
+    <string name="please_to_finish">Please finish the current menstrual cycle first.</string>
+    <string name="end_of_period">Set as menstruation end</string>
+    <string name="delete_selected_menstrual">Delete selected menstruation</string>
+    <string name="menstruation_start_date">Set as menstruation start</string>
+    <string name="tip1">The past menstruation end cannot be removed</string>
+    <string name="string_tip2">Your menstrual length has reached the upper limit!</string>
+    <string name="string_a">You have set</string>
+    <string name="string_b">as menstrual start date ,</string>
+    <string name="string_c">Are you sure to advance it to</string>
+    <string name="string_tips">Tips</string>
+    <string name="string_d">Recording menstruation on this day needs to modify the adjacent menstrual period first</string>
+    <string name="string_nopermissions">Allow to use cellphone notification permissions?</string>
+
+
+    <string name="enable">Enable</string>
+    <string name="clean">Clean</string>
+    <string name="booster">Booster</string>
+    <string name="cool">Cool</string>
+    <string name="battery">Battery</string>
+    <string name="call">Call</string>
+    <string name="wifi">Wifi</string>
+    <string name="antivirus">Antivirus</string>
+    <string name="battery_optimize">BatteryOptimize</string>
+
+    <!--notify-->
+    <string name="notify_title">What\'s New</string>
+    <string name="notify_content">Smart to manage and optimize your phone:lock screen,Internet speed record,
+    call end,exit clean and WiFi optimize.</string>
+    <string name="notify_ad">(Probably has ads)</string>
+
+    <!--battery charging-->
+    <string name="battery_charging">Charging</string>
+    <string name="battery_charge_time">you have charged </string>
+    <string name="battery_charge_complete">Charge Complete</string>
+
+    <!--miss call activity-->
+    <string name="miss_call_activity_miss_call_num">You have missed calls</string>
+
+    <!--network-->
+    <string name="network_speeding">Speeding up your net</string>
+
+    <!--booster-->
+    <string name="booster_text">Speeding up your phone</string>
+
+    <!--clean-->
+    <string name="clean_text">Cleaning up your phone</string>
+    <string name="clean_result">Cleaning up %sMB garbage</string>
+    <string name="clean_update">Cleaning up %sMB garbage of update file</string>
+    <string name="clean_uninstall">Cleaning up %sMB garbage of uninstall APP</string>
+
+    <!--cool-->
+    <string name="cool_text">Cooling your cell phone…</string>
+    <string name="cool_result">Have cooled your phone %d℃</string>
+
+    <!--antivirus page-->
+    <string name="antivirus_text_scanning">Scanning installed apps.</string>
+    <string name="antivirus_text_scanning_result">The app is safe.</string>
+
+    <string name="battery_optimize_before">Battery optimization…</string>
+    <string name="battery_optimize_after">Battery endurance by %1$d%%</string>
+    <string name="to_today">To Today</string>
+    <string name="period">Period</string>
+    <string name="prediction">Prediction</string>
+    <string name="safety">Safety</string>
+    <string name="ovulation">Ovulation</string>
+    <string name="fertile">Fertile</string>
+    <string name="loading">Loading...</string>
+
+</resources>

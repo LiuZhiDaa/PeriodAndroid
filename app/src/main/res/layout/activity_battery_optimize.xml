@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/battery_optimize_bg">
+
+    <ImageView
+        android:id="@+id/iv_close"
+        android:layout_width="@dimen/common_close_icon_size"
+        android:layout_height="@dimen/common_close_icon_size"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="end"
+        android:scaleType="center"
+        android:src="@drawable/icon_close" />
+
+    <FrameLayout
+        android:id="@+id/fl_battery"
+        android:layout_width="@dimen/garbage_icon_size"
+        android:layout_height="@dimen/garbage_icon_size"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp">
+
+        <ImageView
+            android:id="@+id/iv_battery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/out_battery_optimize_icon" />
+
+        <ImageView
+            android:id="@+id/battery_opt_iv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:id="@+id/iv_battery_roate"
+            android:layout_width="@dimen/garbage_icon_size"
+            android:layout_height="@dimen/garbage_icon_size"
+            android:background="@drawable/ui_jiasu_yuan"
+            android:src="@drawable/dianchiyouhua_zhuan" />
+
+        <ImageView
+            android:id="@+id/view_tick"
+            android:layout_width="@dimen/common_result_view_width"
+            android:layout_height="@dimen/common_result_view_width"
+            android:layout_gravity="center"
+            android:src="@drawable/out_complete_icon"
+            android:visibility="gone" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tv_battery_optimize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fl_battery"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/battery_optimize_text_margin_top"
+        android:text="@string/battery_optimize_before"
+        android:textColor="@color/white1"
+        android:textSize="@dimen/battery_optimize_text_size" />
+
+    <include layout="@layout/layout_ad_view" />
+</RelativeLayout>

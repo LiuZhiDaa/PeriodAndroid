@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tool="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/booster_page_bg_color"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/iv_close"
+        android:layout_width="@dimen/common_close_icon_size"
+        android:layout_height="@dimen/common_close_icon_size"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="end"
+        android:scaleType="center"
+        android:src="@drawable/icon_close" />
+
+    <FrameLayout
+        android:id="@+id/fl_content"
+        android:layout_width="@dimen/booster_view_size"
+        android:layout_height="@dimen/booster_view_size"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/common_content_margin_y"
+        android:background="@drawable/yuan_big">
+
+        <ImageView
+            android:id="@+id/tick_view"
+            android:layout_width="@dimen/common_result_view_width"
+            android:layout_height="@dimen/common_result_view_width"
+            android:layout_gravity="center"
+            android:src="@drawable/out_complete_icon"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/booster_circle_point_iv"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_gravity="center"
+            android:background="@drawable/booster_round_point" />
+
+        <com.period.app.main.out.view.RoundProgressView
+            android:id="@+id/booster_roundview"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_gravity="center" />
+
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/booster_socker_img"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="130dp"
+        android:layout_gravity="center"
+        android:src="@drawable/out_booster_rocket" />
+
+    <TextView
+        android:id="@+id/tv_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fl_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/garbage_text_margin_y"
+        android:text="@string/booster_text"
+        android:textColor="@color/white1"
+        android:textSize="@dimen/garbage_text_size" />
+
+    <include layout="@layout/layout_ad_view" />
+</RelativeLayout>

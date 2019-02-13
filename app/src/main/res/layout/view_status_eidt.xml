@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/b"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp">
+        <TextView
+            android:drawablePadding="9dp"
+            android:drawableLeft="@drawable/eidt_start"
+            android:textSize="15dp"
+            android:textColor="@color/dialogTextColor"
+            android:text="@string/menstruation_start_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:drawablePadding="9dp"
+            android:drawableLeft="@drawable/eidt_end"
+            android:layout_marginTop="23dp"
+            android:textSize="15dp"
+            android:textColor="@color/dialogTextColor"
+            android:text="@string/end_of_period"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:drawablePadding="9dp"
+            android:drawableLeft="@drawable/eidt_delete"
+            android:layout_marginTop="23dp"
+            android:textSize="15dp"
+            android:textColor="@color/dialogTextColor"
+            android:text="@string/delete_selected_menstrual"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <RadioGroup
+        android:id="@+id/radiogroup_select"
+        android:layout_alignParentEnd="true"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/radio_start"
+            android:layout_width="30dp"
+            android:layout_height="20dp" />
+        <RadioButton
+            android:id="@+id/radio_end"
+            android:layout_marginTop="23dp"
+            android:layout_width="30dp"
+            android:layout_height="20dp" />
+        <RadioButton
+            android:id="@+id/radio_delete"
+            android:layout_marginTop="23dp"
+            android:layout_width="30dp"
+            android:layout_height="20dp" />
+
+    </RadioGroup>
+
+
+</RelativeLayout>

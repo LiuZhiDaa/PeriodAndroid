@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--permission-->
+    <string name="permission_ask">缺少必要的权限! \n为了正常的使用app, 你需要允许以下权限:</string>
+    <string name="permission_ask_setting">缺少必要的权限! \n 为了正常的使用app, 您需要手动打开以下权限:</string>
+    <string name="permission_ask_setting2">请在系统设置 - 应用 - 找到 %s - 权限设置 - 找到并打开权限开关.</string>
+    <string name="permission_request_dialog_title">提示</string>
+    <string name="permission_name_storage">存储</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="setting">设置</string>
+    <string name="camera">相机</string>
+
+</resources>

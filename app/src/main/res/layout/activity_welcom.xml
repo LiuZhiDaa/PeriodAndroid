@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/welcom_gradient_bg"
+    android:orientation="vertical">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/welcom_title"
+        android:textColor="@color/splashActivityTextColor"
+        android:textSize="@dimen/welcom_text_size" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+    <!--卡片-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginLeft="@dimen/welcom_center_bg_margin_left"
+        android:layout_marginRight="@dimen/welcom_center_bg_margin_left"
+        android:background="@drawable/icon_welcom_center_bg"
+        android:orientation="vertical">
+        <!--标题-->
+        <TextView
+            android:id="@+id/tv_wheel_view_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/welcom_wheel_view_title_margin_top"
+            android:gravity="center"
+            android:text="@string/welcom_phy_cycle_title"
+            android:textColor="@color/welcomWheelTitleColor"
+            android:textSize="@dimen/welcom_wheel_view_title_text_size"
+             />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+            <!--生理周期长度-->
+
+            <com.period.app.widget.wheelview.WheelView
+                android:id="@+id/wheel_view_num"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_marginEnd="@dimen/welcom_wheel_view_margin_right"
+                android:layout_marginStart="@dimen/welcom_wheel_view_margin_left"
+                app:isLoop="false"
+                app:itemVisibleNum="3"
+                app:lineColor="@color/dividerColor"
+                app:lineSpaceingDimens="10dp"
+                app:textColorCenter="@color/welcomWheelCenterColor"
+                app:textColorOuter="@color/welcomWheelOuterColor"
+                app:textSizeCenter="@dimen/welcom_text_size"
+                app:textSizeOuter="16dp" />
+
+            <!--月经期的长度-->
+            <com.period.app.widget.wheelview.WheelDateView
+                android:id="@+id/wheel_rc_men_period"
+                android:layout_marginEnd="@dimen/welcom_wheel_view_margin_right"
+                android:layout_marginStart="@dimen/welcom_wheel_view_margin_left"
+                android:visibility="gone"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:textColorCenter="@color/welcomWheelCenterColor"
+                app:textColorOuter="@color/welcomWheelOuterColor"
+                app:textSizeCenter="@dimen/welcom_text_size"
+                app:textSizeOuter="16dp"/>
+
+        </FrameLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/bt_left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginBottom="@dimen/welcom_wheel_view_bt_margin_bottom"
+                android:layout_marginLeft="@dimen/welcom_wheel_view_bt_margin_left"
+                android:background="@drawable/icon_welcom_pre_bt" />
+
+            <ImageButton
+                android:id="@+id/bt_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="@dimen/welcom_wheel_view_bt_margin_bottom"
+                android:layout_marginRight="@dimen/welcom_wheel_view_bt_margin_left"
+                android:background="@drawable/icon_welcom_next_bt" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+
+
+    <LinearLayout
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_gravity="center_horizontal">
+        <Button
+            android:id="@+id/bt_skip"
+            android:layout_width="@dimen/welcome_btn"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:text="@string/skip"
+            android:textAllCaps="false"
+            android:textColor="@color/colorWhite"
+            />
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_skip"/>
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+</LinearLayout>

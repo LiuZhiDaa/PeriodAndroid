@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/settingItemTitleBarTextStyle"
+        android:text="@string/more" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                style="@style/settingItemTitleTextStyle"
+                android:text="@string/phy_cycle_setting" />
+            <LinearLayout
+                android:id="@+id/lv_phy_cycle_length"
+                style="@style/settingItemStyle">
+
+                <TextView
+                    style="@style/settingItemTextStyle"
+                    android:text="@string/phy_cycle_length" />
+
+                <TextView
+                    android:id="@+id/tv_phy_cycle"
+                    style="@style/settingItemdaysStyle"
+                    android:text="@string/format_days" />
+
+                <ImageView
+                    style="@style/settingItemArrowStyle"
+                    android:src="@drawable/icon_arrow_right" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/divider_height"
+                android:background="@color/settingItemdividerColor" />
+
+            <LinearLayout
+                android:id="@+id/lv_menstrual_length"
+                style="@style/settingItemStyle">
+
+                <TextView
+                    style="@style/settingItemTextStyle"
+                    android:text="@string/menstrual_length" />
+
+                <TextView
+                    android:id="@+id/tv_menstrual_days"
+                    style="@style/settingItemdaysStyle"
+                    android:text="@string/format_days" />
+
+                <ImageView
+                    android:id="@+id/iv_menstrual_arrow"
+                    style="@style/settingItemArrowStyle"
+                    android:src="@drawable/icon_arrow_right" />
+            </LinearLayout>
+
+            <include layout="@layout/divider_match_parent" />
+            <TextView
+                style="@style/settingItemTitleTextStyle"
+                android:text="@string/reminder_settings" />
+
+            <include layout="@layout/divider_match_parent" />
+
+            <LinearLayout
+                android:id="@+id/lv_reminder_time"
+                style="@style/settingItemStyle">
+
+                <TextView
+                    style="@style/settingItemTextStyle"
+                    android:text="@string/menstrua_start_reminder" />
+
+                <ImageView
+                    android:id="@+id/iv_menstrua_start_arrow"
+                    style="@style/settingItemArrowStyle"
+                    android:src="@drawable/icon_arrow_right" />
+            </LinearLayout>
+
+            <include layout="@layout/divider_match_parent" />
+
+            <LinearLayout
+                android:id="@+id/lv_end_menstrua"
+                style="@style/settingItemStyle">
+
+                <TextView
+                    style="@style/settingItemTextStyle"
+                    android:text="@string/end_of_menstrua" />
+
+                <ImageView
+                    android:id="@+id/iv_end_menstrua_arrow"
+                    style="@style/settingItemArrowStyle"
+                    android:src="@drawable/icon_arrow_right" />
+            </LinearLayout>
+
+            <include layout="@layout/divider_match_parent" />
+
+
+            <LinearLayout
+                android:id="@+id/lv_ovulation_start_prompt"
+                style="@style/settingItemStyle">
+
+                <TextView
+                    style="@style/settingItemTextStyle"
+                    android:text="@string/ovulation_start_reminder" />
+
+                <ImageView
+                    android:id="@+id/iv_ovulation_start_arrow"
+                    style="@style/settingItemArrowStyle"
+                    android:src="@drawable/icon_arrow_right" />
+            </LinearLayout>
+
+            <include layout="@layout/divider_match_parent" />
+
+
+            <LinearLayout
+                android:id="@+id/lv_ovulation_day_prompt"
+                style="@style/settingItemStyle">
+
+                <TextView
+                    style="@style/settingItemTextStyle"
+                    android:text="@string/ovulation_day_reminder" />
+
+                <ImageView
+                    android:id="@+id/iv_ovulation_day_arrow"
+                    style="@style/settingItemArrowStyle"
+                    android:src="@drawable/icon_arrow_right" />
+            </LinearLayout>
+
+            <include layout="@layout/divider_match_parent" />
+
+
+            <LinearLayout
+                android:id="@+id/lv_ovulation_end_prompt"
+                style="@style/settingItemStyle">
+
+                <TextView
+                    style="@style/settingItemTextStyle"
+                    android:text="@string/ovulation_end_reminder" />
+
+                <ImageView
+                    android:id="@+id/iv_end_ovulation_arrow"
+                    style="@style/settingItemArrowStyle"
+                    android:src="@drawable/icon_arrow_right" />
+            </LinearLayout>
+
+            <include layout="@layout/divider_match_parent" />
+
+
+            <TextView
+                style="@style/settingItemTitleTextStyle"
+                android:text="@string/others" />
+
+
+            <include layout="@layout/divider_match_parent" />
+
+
+            <LinearLayout
+                android:id="@+id/lin_privacy"
+                style="@style/settingItemStyle">
+
+                <TextView
+                    style="@style/settingItemTextStyle"
+                    android:text="@string/privacy" />
+
+                <ImageView
+
+                    style="@style/settingItemArrowStyle"
+                    android:src="@drawable/icon_arrow_right" />
+            </LinearLayout>
+            <include layout="@layout/divider_match_parent" />
+
+            <LinearLayout
+                android:id="@+id/lin_feedback"
+                style="@style/settingItemStyle">
+
+                <TextView
+                    style="@style/settingItemTextStyle"
+                    android:text="@string/feedback" />
+
+                <ImageView
+
+                    style="@style/settingItemArrowStyle"
+                    android:src="@drawable/icon_arrow_right" />
+            </LinearLayout>
+
+            <include layout="@layout/divider_match_parent" />
+
+            <LinearLayout
+                android:id="@+id/lin_about"
+                style="@style/settingItemStyle">
+
+                <TextView
+                    style="@style/settingItemTextStyle"
+                    android:text="@string/about" />
+
+                <ImageView
+                    style="@style/settingItemArrowStyle"
+                    android:src="@drawable/icon_arrow_right" />
+            </LinearLayout>
+
+            <!--<Space-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="45dp" />-->
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

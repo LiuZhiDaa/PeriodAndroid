@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/miss_call_activity_bg"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/iv_close"
+        android:layout_width="@dimen/common_close_icon_size"
+        android:layout_height="@dimen/common_close_icon_size"
+        android:layout_gravity="end"
+        android:layout_margin="@dimen/miss_call_activity_margin"
+        android:scaleType="center"
+        android:src="@drawable/icon_close" />
+
+    <TextView
+        android:id="@+id/tv_miss_call_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/miss_call_activity_margin"
+        android:textColor="@color/white1"
+        android:textSize="@dimen/miss_call_activity_miss_call_num" />
+
+    <ImageView
+        android:id="@+id/iv_miss_call_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/miss_call_activity_margin"
+        android:src="@drawable/icon_miss_call_logo" />
+
+    <ImageView
+        android:id="@+id/iv_miss_call_down"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/miss_call_activity_margin"
+        android:src="@drawable/icon_miss_call_down" />
+
+    <!--<android.support.v7.widget.RecyclerView-->
+    <!--android:id="@+id/rv"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="0dp"-->
+    <!--android:layout_weight="1"-->
+    <!--android:layout_marginTop="@dimen/miss_call_activity_margin"-->
+    <!--android:overScrollMode="never"-->
+    <!--android:scrollbars="none" />-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/miss_call_activity_margin"
+        android:gravity="center"
+        android:text="@string/miss_call_activity_miss_call_num"
+        android:textColor="@color/white1"
+        android:textSize="@dimen/miss_call_activity_miss_call_num" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <include layout="@layout/layout_ad_view" />
+    </LinearLayout>
+
+</LinearLayout>

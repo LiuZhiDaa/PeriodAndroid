@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--permission-->
+    <string name="permission_ask">Lack of necessary permissions! \n In order to use the app normally, you need to enable the following permissions:</string>
+    <string name="permission_ask_setting">Lack of necessary permissions! \n In order to use the app normally, you need to manually open the following permissions:</string>
+    <string name="permission_ask_setting2">Please in System Settings - Apps - find %s - Permissions - find and enable switch.</string>
+    <string name="permission_request_dialog_title">Hints</string>
+    <string name="permission_name_storage">Storage</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="setting">Setting</string>
+    <string name="camera">Camera</string>
+
+</resources>

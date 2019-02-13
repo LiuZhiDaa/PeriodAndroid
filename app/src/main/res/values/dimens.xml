@@ -1,0 +1,216 @@
+<resources>
+    <dimen name="common_5dp">5dp</dimen>
+    <dimen name="common_7dp">7dp</dimen>
+    <dimen name="common_10dp">10dp</dimen>
+    <dimen name="common_13dp">13dp</dimen>
+    <dimen name="common_15dp">15dp</dimen>
+    <dimen name="common_17dp">17dp</dimen>
+    <dimen name="common_16dp">16dp</dimen>
+    <dimen name="common_18dp">18dp</dimen>
+    <dimen name="common_8dp">8dp</dimen>
+    <dimen name="common_20dp">20dp</dimen>
+    <dimen name="common_22dp">22dp</dimen>
+    <dimen name="common_23dp">23dp</dimen>
+    <dimen name="common_25dp">25dp</dimen>
+    <dimen name="common_30dp">30dp</dimen>
+    <dimen name="common_35dp">35dp</dimen>
+    <dimen name="common_40dp">40dp</dimen>
+    <dimen name="common_45dp">45dp</dimen>
+    <dimen name="common_50dp">50dp</dimen>
+    <dimen name="common_55dp">55dp</dimen>
+    <dimen name="common_60dp">60dp</dimen>
+    <dimen name="common_65dp">65dp</dimen>
+    <dimen name="common_70dp">70dp</dimen>
+    <dimen name="common_81dp">81dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <!--splash界面-->
+    <dimen name="splash_logo_img_margin_top">86dp</dimen>
+    <dimen name="splash_text_margin_top">47dp</dimen>
+    <dimen name="splash_sub_text_margin_top">23dp</dimen>
+    <dimen name="splash_text_size">17dp</dimen>
+    <dimen name="splash_sub_text_size">12dp</dimen>
+    <dimen name="splash_bt_margin_top">68dp</dimen>
+    <dimen name="splash_bt_width">153dp</dimen>
+    <dimen name="splash_bt_height">37dp</dimen>
+
+    <!--welcom界面-->
+    <dimen name="welcom_text_margin_top">62dp</dimen>
+    <dimen name="welcom_text_margin_bottom">40dp</dimen>
+    <dimen name="welcom_text_size">17dp</dimen>
+    <dimen name="welcom_wheel_view_title_text_size">15dp</dimen>
+    <dimen name="welcom_wheel_view_bt_margin_left">35dp</dimen>
+    <dimen name="welcom_wheel_view_bt_margin_bottom">22dp</dimen>
+    <dimen name="welcom_bt_margin_left">20dp</dimen>
+    <dimen name="welcom_bt_margin_top">10dp</dimen>
+    <dimen name="welcom_center_bg_margin_left">20dp</dimen>
+    <dimen name="welcom_center_bg_margin_top">20dp</dimen>
+    <dimen name="welcom_wheel_view_margin_left">20dp</dimen>
+    <dimen name="welcom_wheel_view_margin_right">20dp</dimen>
+    <dimen name="welcom_wheel_view_title_margin_top">78dp</dimen>
+
+
+    <dimen name="dialog_wheel_width">20dp</dimen>
+
+
+    <!--main fragment界面-->
+    <dimen name="main_fragment_text_margin_top">7dp</dimen>
+    <dimen name="main_fragment_sub_text_margin_left">19dp</dimen>
+    <dimen name="main_fragment_sub_text_margin_top">60dp</dimen>
+    <dimen name="main_fragment_sub_text_margin_bottom">7dp</dimen>
+
+    <dimen name="main_fragment_title_text_margin_left">19dp</dimen>
+    <dimen name="main_fragment_title_text_margin_bottom">12dp</dimen>
+
+    <dimen name="main_fragment_third_text_margin_left">19dp</dimen>
+
+    <dimen name="main_fragment_title_margin_bottom_size">30dp</dimen>
+
+    <dimen name="main_fragment_text_size">18dp</dimen>
+    <dimen name="main_fragment_margin_top">6dp</dimen>
+    <dimen name="main_fragment_calendar_text_size">24dp</dimen>
+    <dimen name="main_fragment_date_text_size">13dp</dimen>
+    <dimen name="main_fragment_bt_margin_btop">35dp</dimen>
+    <dimen name="main_fragment_bt_margin_bottom">34dp</dimen>
+    <dimen name="main_fragment_bt_width">187dp</dimen>
+    <dimen name="main_fragment_bt_height">40dp</dimen>
+    <dimen name="main_fragment_bt_text_size">16dp</dimen>
+
+    <dimen name="main_fragment_circle_forecast_text_size">18dp</dimen>
+    <dimen name="main_fragment_circle_main_text_size">18dp</dimen>
+    <dimen name="main_fragment_circle_sub_text_size">27dp</dimen>
+    <dimen name="main_fragment_circle_forecast_sub_text_size">22dp</dimen>
+    <dimen name="main_fragment_circle_ovu_day_text_size">24dp</dimen>
+
+    <!--日历界面-->
+    <dimen name="calendar_fragment_item_title_height">53dp</dimen>
+    <!--设置界面-->
+    <dimen name="setting_fragment_title_text_height">80dp</dimen>
+
+    <dimen name="setting_fragment_item_title_height">39dp</dimen>
+    <dimen name="setting_fragment_item_title_text_size">12dp</dimen>
+    <dimen name="setting_fragment_item_margin_left">17dp</dimen>
+    <dimen name="setting_fragment_item_text_size">14dp</dimen>
+    <dimen name="setting_fragment_days_text_width">2dp</dimen>
+    <dimen name="divider_size">0.5dp</dimen>
+
+
+    <!--dialog-->
+    <dimen name="notification_dialog_radius">3dp</dimen>
+    <dimen name="dialog_title_text">17dp</dimen>
+    <dimen name="dialog_fragment_margin">10dp</dimen>
+    <dimen name="dialog_bt_text_size">16dp</dimen>
+    <dimen name="dialog_padding">20dp</dimen>
+
+    <!--reminder text dialog-->
+    <dimen name="reminder_text_margin_left">23dp</dimen>
+    <dimen name="reminder_text_margin_top">42dp</dimen>
+    <dimen name="reminder_text_height">47dp</dimen>
+    <dimen name="reminder_text_padding_left">7dp</dimen>
+
+    <!--menstrual length adjustment dialog-->
+    <dimen name="menstrual_length_center_text_size">19dp</dimen>
+    <dimen name="menstrual_length_outer_text_size">15dp</dimen>
+
+    <!--reminder time length adjustment dialog-->
+    <dimen name="reminder_time_center_text_size">17dp</dimen>
+    <dimen name="reminder_time_outer_text_size">15dp</dimen>
+
+    <!--cycle length adjustment dialog-->
+    <dimen name="cycle_length_center_text_size">19dp</dimen>
+    <dimen name="cycle_length_outer_text_size">15dp</dimen>
+    <dimen name="divider_height">0.5dp</dimen>
+    <dimen name="dialog_space_size">50dp</dimen>
+
+    <!--tool bar-->
+    <dimen name="padding_common">17dp</dimen>
+    <dimen name="toolbar_height">50dp</dimen>
+
+
+    <dimen name="common_result_view_width">140dp</dimen>
+    <dimen name="common_close_icon_size">40dp</dimen>
+    <dimen name="common_content_margin_y">50dp</dimen>
+
+    <!--notify-->
+    <dimen name="notify_close_margin">20dp</dimen>
+    <dimen name="notify_title_size">25dp</dimen>
+    <dimen name="notify_content_size">16dp</dimen>
+    <dimen name="notify_content_margin_y">15dp</dimen>
+    <dimen name="notify_button_height">50dp</dimen>
+    <dimen name="notify_button_margin_x">20dp</dimen>
+    <dimen name="notify_button_margin_y">10dp</dimen>
+    <dimen name="notify_button_text">16dp</dimen>
+    <dimen name="notify_ad_margin_y">10dp</dimen>
+    <dimen name="notify_item_icon_size">70dp</dimen>
+    <dimen name="notify_item_height">140dp</dimen>
+    <dimen name="notify_item_title_size">16dp</dimen>
+    <dimen name="notify_item_title_margin_y">10dp</dimen>
+
+    <!--clean-->
+    <dimen name="garbage_icon_size">200dp</dimen>
+    <dimen name="garbage_icon_margin_y">10dp</dimen>
+    <dimen name="garbage_progress_stroke">5dp</dimen>
+    <dimen name="garbage_icon_margin">10dp</dimen>
+    <dimen name="garbage_progress_margin">10dp</dimen>
+    <dimen name="garbage_text_margin_y">10dp</dimen>
+    <dimen name="garbage_text_size">20dp</dimen>
+
+    <!--cool-->
+    <dimen name="cool_progress_stroke">5dp</dimen>
+
+    <!--booster-->
+    <dimen name="booster_rocket_translation_y">300dp</dimen>
+    <dimen name="booster_view_size">200dp</dimen>
+    <dimen name="booster_rocket_width">56dp</dimen>
+    <dimen name="booster_rocket_height">102dp</dimen>
+
+    <!--network-->
+    <dimen name="network_view_size">200dp</dimen>
+    <dimen name="network_progress_size">170dp</dimen>
+    <dimen name="network_progress_small_size">140dp</dimen>
+    <dimen name="network_progress_big_size">188dp</dimen>
+    <dimen name="network_earth_size">200dp</dimen>
+    <dimen name="network_wifi_size">40dp</dimen>
+    <dimen name="network_progress_margin">10dp</dimen>
+    <dimen name="network_progress_stroke">3dp</dimen>
+    <dimen name="network_progress_padding">3dp</dimen>
+
+    <!--battery charging-->
+    <dimen name="battery_charging_progress">10dp</dimen>
+    <dimen name="battery_charging_text">16dp</dimen>
+    <dimen name="battery_charging_margin">20dp</dimen>
+    <dimen name="battery_charging_padding">4dp</dimen>
+    <dimen name="battery_charging_width">200dp</dimen>
+    <dimen name="battery_charging_height">200dp</dimen>
+    <dimen name="battery_charging_logo_width">20dp</dimen>
+    <dimen name="battery_charging_logo_height">20dp</dimen>
+    <dimen name="battery_close_margin">20dp</dimen>
+    <!--battery end charging-->
+    <dimen name="battery_end_charging_width">80dp</dimen>
+    <dimen name="battery_end_charging_height">160dp</dimen>
+    <!--miss call activity-->
+    <dimen name="miss_call_activity_margin">10dp</dimen>
+    <dimen name="miss_call_activity_margin_item_date_phone_num">4dp</dimen>
+    <dimen name="miss_call_activity_padding">4dp</dimen>
+    <dimen name="miss_call_activity_miss_call_num">16dp</dimen>
+    <dimen name="miss_call_activity_miss_call_item_time">14dp</dimen>
+    <dimen name="miss_call_activity_miss_call_item_phone_num">14dp</dimen>
+
+    <!--antivirus page-->
+    <dimen name="antivirus_page_center_img_width">150dp</dimen>
+    <dimen name="antivirus_page_center_bg_margin">14dp</dimen>
+    <dimen name="antivirus_progress_margin">10dp</dimen>
+    <dimen name="boost_size_middle">130dp</dimen>
+    <dimen name="boost_size_small">80dp</dimen>
+
+    <dimen name="battery_optimize_text_size">20dp</dimen>
+    <dimen name="battery_optimize_text_margin_top">10dp</dimen>
+    <dimen name="about_img">70dp</dimen>
+    <dimen name="welcome_btn">40dp</dimen>
+    <dimen name="day_text_size">12dp</dimen>
+    <dimen name="week_line_margin">16dp</dimen>
+    <dimen name="year_view_day_text_size">8sp</dimen>
+    <dimen name="week_text_size">12sp</dimen>
+    <dimen name="year_view_month_text_size">20sp</dimen>
+    <dimen name="year_view_week_text_size">7sp</dimen>
+
+</resources>

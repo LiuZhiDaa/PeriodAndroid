@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/toolbar_height"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:background="@color/settingItemTitleTextColor">
+            <TextView
+                android:layout_centerInParent="true"
+                android:text="@string/calendar_fragment_title"
+                style="@style/settingItemTitleBarTextStyle" />
+            <RelativeLayout
+
+                android:layout_marginStart="@dimen/common_10dp"
+                android:id="@+id/back_today"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:textColor="@color/colorWhite"
+                    android:textSize="13sp"
+                    android:layout_centerInParent="true"
+                    android:text="@string/to_today"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <RelativeLayout
+            android:background="@color/colorWhite"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/common_50dp">
+
+            <RelativeLayout
+                android:layout_centerInParent="true"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@color/colorWhite">
+                <RelativeLayout
+                    android:id="@+id/iv_pre"
+                    android:layout_width="@dimen/common_35dp"
+                    android:layout_height="match_parent">
+                </RelativeLayout>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:scaleType="centerInside"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/icon_pre"
+                    android:layout_centerVertical="true"
+                    android:layout_toStartOf="@+id/tv_date"/>
+
+                <TextView
+                    android:layout_marginStart="@dimen/common_23dp"
+                    android:textStyle="bold"
+                    android:id="@+id/tv_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:textColor="@color/calendar_title_text"
+                    android:textSize="17sp"
+                    tools:text="Nov-2018" />
+                <RelativeLayout
+                    android:id="@+id/iv_next"
+                    android:layout_toEndOf="@+id/tv_date"
+                    android:layout_width="@dimen/common_35dp"
+                    android:layout_height="match_parent">
+
+                </RelativeLayout>
+                <ImageView
+                    android:layout_marginStart="@dimen/common_23dp"
+                    android:layout_toEndOf="@+id/tv_date"
+                    android:layout_width="wrap_content"
+                    android:scaleType="centerInside"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/icon_next" />
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@color/colorWhite"/>
+            <RelativeLayout
+                android:visibility="invisible"
+
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@color/colorWhite">
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:background="@color/colorWhite"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/common_10dp"/>
+
+        <com.haibin.calendarview.CalendarView
+            android:background="@color/colorWhite"
+            android:id="@+id/calendarView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            app:calendar_height="@dimen/common_45dp"
+            app:calendar_padding="0dp"
+            app:current_day_lunar_text_color="@color/current_day_lunar_text_color"
+            app:current_day_text_color="@color/current_day_text_color"
+            app:current_month_lunar_text_color="#CFCFCF"
+            app:current_month_text_color="@color/current_month_text_color"
+            app:day_text_size="@dimen/day_text_size"
+            app:lunar_text_size="0sp"
+            app:max_year="2050"
+            app:max_year_day="31"
+            app:max_year_month="12"
+            app:min_year="1970"
+            app:min_year_day="1"
+            app:min_year_month="1"
+            app:month_view_show_mode="mode_only_current"
+            app:other_month_lunar_text_color="#e1e1e1"
+            app:other_month_text_color="@color/other_month_text_color"
+            app:scheme_lunar_text_color="@color/scheme_lunar_text_color"
+            app:scheme_text="假"
+            app:scheme_text_color="@color/scheme_text_color"
+            app:scheme_theme_color="@color/scheme_theme_color"
+            app:select_mode="default_mode"
+            app:selected_lunar_text_color="@color/selected_lunar_text_color"
+            app:selected_text_color="@color/colorWhite"
+            app:selected_theme_color="@color/selected_theme_color"
+            app:week_background="@color/colorWhite"
+            app:week_bar_height="@dimen/common_23dp"
+            app:week_line_background="#00000000"
+            app:week_line_margin="@dimen/week_line_margin"
+            app:week_start_with="mon"
+            app:week_text_color="@color/week_text_color"
+            app:week_text_size="@dimen/week_text_size"
+            app:year_view_background="@color/year_view_background"
+            app:year_view_day_text_color="@color/year_view_day_text_color"
+            app:year_view_day_text_size="@dimen/year_view_day_text_size"
+            app:year_view_month_text_color="@color/year_view_month_text_color"
+            app:year_view_month_text_size="@dimen/year_view_month_text_size"
+            app:year_view_scheme_color="@color/year_view_scheme_color"
+            app:year_view_week_height="0dp"
+            app:year_view_week_text_color="@color/year_view_week_text_color"
+            app:year_view_week_text_size="@dimen/year_view_week_text_size" />
+        <HorizontalScrollView
+            android:scrollbars="none"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:background="@color/colorWhite"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_centerInParent="true"
+                    android:orientation="horizontal"
+                    android:background="@color/colorWhite"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_gravity="center"
+                        android:orientation="horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:background="@drawable/rounded_shiji"
+                            android:layout_width="@dimen/common_7dp"
+                            android:layout_height="@dimen/common_7dp" />
+                        <TextView
+                            android:textSize="11sp"
+                            android:layout_marginStart="5dp"
+                            android:text="@string/period"
+                            android:textColor="@color/dialogTextColor"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_marginStart="17dp"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:background="@drawable/rounded_yuce"
+                            android:layout_width="7dp"
+                            android:layout_height="7dp" />
+                        <TextView
+                            android:textSize="11sp"
+                            android:layout_marginStart="@dimen/common_5dp"
+                            android:text="@string/prediction"
+                            android:textColor="@color/dialogTextColor"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_marginStart="17dp"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:background="@drawable/rounded_safety"
+                            android:layout_width="7dp"
+                            android:layout_height="7dp" />
+                        <TextView
+                            android:textSize="11sp"
+                            android:layout_marginStart="5dp"
+                            android:text="@string/safety"
+                            android:textColor="@color/dialogTextColor"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_marginStart="17dp"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_gravity="center"
+                            android:background="@drawable/rounded_pailuan"
+                            android:layout_width="7dp"
+                            android:layout_height="7dp" />
+                        <TextView
+                            android:textSize="11sp"
+                            android:layout_marginStart="5dp"
+                            android:text="@string/ovulation"
+                            android:textColor="@color/dialogTextColor"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_gravity="center"
+                        android:layout_marginStart="17dp"
+                        android:orientation="horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:layout_gravity="center"
+                            android:src="@drawable/icon_heart"
+                            android:layout_width="9dp"
+                            android:layout_height="7dp" />
+                        <TextView
+                            android:textSize="11sp"
+                            android:layout_marginStart="5dp"
+                            android:text="@string/fertile"
+                            android:textColor="@color/dialogTextColor"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+
+                    </LinearLayout>
+                </LinearLayout>
+            </RelativeLayout>
+        </HorizontalScrollView>
+
+        <RelativeLayout
+            android:background="@color/colorWhite"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <com.period.app.widget.RoundImageView
+                android:id="@+id/roundimg"
+                android:layout_marginTop="@dimen/common_22dp"
+                android:scaleType="center"
+                android:src="@drawable/tu"
+                app:image_shadow="true"
+                app:image_radius = "@dimen/common_5dp"
+                app:image_shadow_radius="@dimen/common_13dp"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/common_81dp" />
+            <android.support.v7.widget.CardView
+                android:layout_marginTop="35dp"
+                android:id="@+id/cardview"
+                app:cardElevation="0dp"
+                android:layout_marginEnd="@dimen/common_13dp"
+                android:layout_marginStart="@dimen/common_13dp"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/common_55dp">
+                <LinearLayout
+                    android:background="@color/shijiJq"
+                    android:layout_marginBottom="@dimen/common_8dp"
+                    android:layout_marginTop="@dimen/common_8dp"
+                    android:layout_width="3dp"
+                    android:layout_height="match_parent">
+                </LinearLayout>
+                <ImageView
+                    android:src="@drawable/icon_sd"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="@dimen/common_23dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/text_menstrual"
+                    android:textStyle="bold"
+                    android:text="@string/menstrualstart"
+                    android:textColor="#333333"
+                    android:textSize="17sp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="@dimen/common_45dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <RelativeLayout
+                    android:id="@+id/rl_checkbox_menstrual"
+                    android:layout_gravity="end"
+                    android:layout_marginTop="@dimen/common_13dp"
+                    android:layout_marginEnd="@dimen/common_18dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <CheckBox
+                        android:clickable="false"
+                        android:focusable="false"
+                        android:background="@drawable/checkbox_swich_style"
+                        android:id="@+id/checkbox_menstrual"
+                        style="@style/CustomCheckBoxSwichTheme"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </RelativeLayout>
+
+
+            </android.support.v7.widget.CardView>
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/calendar_edit_tv"
+                android:textColor="@color/menstrualLengthWheelOuterColor"
+                android:layout_centerInParent="true"
+                android:textSize="14sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+
+        <FrameLayout
+            android:id="@+id/fl_native_ad"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    </ScrollView>
+    <RelativeLayout
+        android:visibility="gone"
+        android:id="@+id/loadView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.mingle.widget.LoadingView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "817365124701",
+    "firebase_url": "https://period-calendar-tracker.firebaseio.com",
+    "project_id": "period-calendar-tracker",
+    "storage_bucket": "period-calendar-tracker.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:817365124701:android:cf5951c189dac0c9",
+        "android_client_info": {
+          "package_name": "com.my.period.calendar.tracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "817365124701-286318vb8ke22k43m77ng0g0inodgka4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfza1NWqF3E-mJFtYVuuqmWKXvHE4FYsU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

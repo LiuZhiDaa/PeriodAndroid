@@ -1,0 +1,9 @@
+[submodule "XToolLibAndroid"]
+	path = XToolLibAndroid
+	url = git@39.105.109.116:root/XToolLibAndroid.git
+[submodule "XToolOutAndroid"]
+	path = XToolOutAndroid
+	url = git@39.105.109.116:root/XToolOutAndroid.git
+[submodule "XToolProfitAndroid"]
+	path = XToolProfitAndroid
+	url = git@39.105.109.116:root/XToolProfitAndroid.git

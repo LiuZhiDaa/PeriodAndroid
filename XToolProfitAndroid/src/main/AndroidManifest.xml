@@ -1,0 +1,33 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ulric.li.xprofit">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.android.vending.BILLING" />
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:supportsRtl="true">
+
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:autoRemoveFromRecents="true"
+            android:excludeFromRecents="true"
+            android:hardwareAccelerated="true"
+            android:icon="@drawable/icon_launcher_notify"
+            android:label="@string/ad_name"
+            android:launchMode="singleTask"
+            android:noHistory="true"
+            android:taskAffinity="com.ulric.li.ad.admob" />
+        <activity
+            android:name="com.facebook.ads.AudienceNetworkActivity"
+            android:autoRemoveFromRecents="true"
+            android:excludeFromRecents="true"
+            android:hardwareAccelerated="true"
+            android:icon="@drawable/icon_launcher_notify"
+            android:label="@string/ad_name"
+            android:launchMode="singleTask"
+            android:noHistory="true"
+            android:taskAffinity="com.ulric.li.ad.facebook" />
+    </application>
+</manifest>
